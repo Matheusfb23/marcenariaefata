@@ -1,0 +1,41 @@
+.rodape {
+    text-align: center;
+    background-color: black;
+    }
+
+   .rodape__logo {
+    padding-top: 2em;
+   }
+    
+
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 2em;
+}
+
+.nav {
+    text-decoration: none;
+    color: var(--cor_branca);
+    font-size: 16px;
+}
+
+.nav:hover {
+ color: var(--cor-dourada);
+}
+
+.nav:active {
+    color: brown;
+   }
+
+.rodape__texto 
+
+{   
+    color: rgb(194, 180, 180);
+    font-size: 10px;
+    padding: 1em 2em 1em 2em;
+}

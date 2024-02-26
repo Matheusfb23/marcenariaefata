@@ -1,0 +1,120 @@
+
+
+:root {
+    --cor_branca: rgb(255, 255, 255);
+    --cor_preta: rgb(0, 0, 0);
+    --font: "Montserrat Alternates", sans-serif;
+    --cor-dourada: rgb(199, 164, 59);
+}
+
+body {
+    background-color: var(--cor_branca);
+}
+
+.menu {
+    background: linear-gradient(rgba(140, 0, 3, 0.5), rgba(24, 23, 23, 0.5)), rgb(0, 0, 0);
+    text-align: center;
+}
+
+.menu__logo {
+    margin: 1em 0;
+}
+
+.menu__link_a {
+    padding: 1em 0 3em 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    padding-left: 1em;
+}
+
+.menu__link:hover {
+    color: var(--cor-dourada);
+    border-bottom: 2px solid var(--cor-dourada);
+    padding-bottom: 0.5em;
+}
+
+.principal {
+    background-image: url(assets/Cozinha_preta_e_branca.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    padding: 6em 2em;
+}
+
+.container__titulo {
+    font-size: 25px;
+    color: var(--cor_branca);
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.container__botao {
+    border: 2px solid var(--cor_branca);
+    border-radius: 15px;
+    padding: 1em 2em;
+    color: var(--cor_branca);
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+}
+
+
+.container__segundario-link {
+    display: block;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 30px;
+    color: var(--cor-dourada);
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 1em 13em 0 1em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 10px;
+    background: #eeecec;
+    box-shadow: 0px 4px 4px 0px var(--cor_preta);
+    margin: 0em 1em 2em 1em;
+    padding: 1em;
+
+}
+
+.destaque {
+    background-color: orange;
+    border-radius: 100%;
+    margin: 1em 40% 0 40%;
+    padding: 1em 0em;
+}
+
+.card__paragrafo {
+    color: white;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+.descricao__texto {
+    text-align: center;
+    color: var(--cor_preta);
+    font-family: Poppins, sans-serif;
+}
+

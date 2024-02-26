@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efata</title>
+    <link rel="icon" href="assets/serra-circular.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrosel.css">
+    <link rel="stylesheet" href="quemsomos.css">
+    <link rel="stylesheet" href="carts.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+<header class="menu">
+    <div>
+        <img class="menu__logo" src="assets/logoefata.svg" alt="Logo Marcenaria Efata">
+    </div>
+    <div class="menu__link_a">
+        <a class="menu__link" href="#">Home</a>
+        <a class="menu__link" href="#">Quem Somos</a>
+        <a class="menu__link" href="#">Projetos</a>
+        <a class="menu__link" href="#">Orçamento</a>
+    </div>
+</header>
+<main class="container principal">
+    <h1 class="container__titulo  Efeitos">MÓVEIS PLANEJADOS E MODERNOS</h1>
+    <a class="container__botao  Efeitos" href="https://wa.me/5511963709379?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.">FAÇA SEU ORÇAMENTO</a>
+</main>
+<section class="carrosel">
+    <h2 class="carrosel__titulo">AMBIENTES</h2>
+    <ul class="ambiente-lista">
+        <li><a class="ambiente-link" href="#" data-ambiente="cozinha">Cozinha</a></li>
+        <li><a class="ambiente-link" href="#" data-ambiente="quarto">Quarto</a></li>
+        <li><a class="ambiente-link" href="#" data-ambiente="escritorio">Escritório</a></li>
+    </ul>
+    <!-- Slider main container -->
+    <div class="carrosel__container cozinha ambiente">
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/cozinha1.svg" alt="Livro sobre a Apache Kafka"></div>
+                <div class="swiper-slide"><img src="assets/cozinha2.svg" alt="Livro Guia Front-end"></div>
+                <div class="swiper-slide"><img src="assets/cozinha3.svg" alt="Livro sobre liderança"></div>
+                <div class="swiper-slide"><img src="assets/cozinha4.svg" alt="Livro sobre Javascript"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carrosel__container quarto ambiente" style="display: none;">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/quarto1.svg" alt="Quarto 1"></div>
+                <div class="swiper-slide"><img src="assets/quarto2.svg" alt="Quarto 2"></div>
+                <div class="swiper-slide"><img src="assets/quarto3.svg" alt="Quarto 3"></div>
+                <div class="swiper-slide"><img src="assets/quarto4.svg" alt="Quarto 4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carrosel__container escritorio ambiente" style="display: none;">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/escritorio1.svg" alt="Escritorio 1"></div>
+                <div class="swiper-slide"><img src="assets/escritorio2.svg" alt="Escritorio 2"></div>
+                <div class="swiper-slide"><img src="assets/escritorio3.svg" alt="Escritorio 3"></div>
+                <div class="swiper-slide"><img src="assets/escritorio4.svg" alt="Escritorio 4"></div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<a class="carrosel__link" href="">VEJA TODOS PROJETOS</a>
+
+<section class="container__segundario">
+
+<h2 class="container__segundario-titulo  Efeitos">QUEM SOMOS</h2>
+<hr class="linha_divisoria  Efeitos"/>
+<p class="segundario-paragrafo">A Marcenaria Efatá é uma empresa dedicada a criar móveis planejados e sob medida de alta qualidade. Com anos de experiência no mercado, nossa equipe de profissionais qualificados e apaixonados por marcenaria trabalha para transformar os ambientes de nossos clientes, proporcionando funcionalidade, beleza e conforto.</p>
+<p class="segundario-paragrafo">Acreditamos que cada projeto é único, por isso, dedicamos tempo e atenção aos detalhes para garantir que cada peça seja projetada e fabricada de acordo com as necessidades e preferências de nossos clientes. Nossa missão é sup...</p>
+</section>
+
+<a class="container__segundario-link" href="">CONHEÇA</a>
+
+<h2 class="carrosel__titulo">DECLARAÇÕES</h2>
+
+<section class="container__card">
+<div class="card">
+    <!--1° Linha-->
+    <div class="card__descricao">
+        <!--1° Coluna-->
+        <div class="descricao">
+            <p class="descricao__texto">"Fui bem atendido a respeito do serviço a ser prestado...
+                A loja conta com serviço presta a residência do cliente através de orçamentos para móveis planejados como balcão, prateleiras pias etc...
+                Produtos ao gosto do cliente!
+                Recomendo o serviço de marcenaria!"</p>
+                 <p class="descricao__texto destaque">I</p> 
+    </div>
+</div>
+</div>
+
+<div class="card">
+    <!--1° Linha-->
+    <div class="card__descricao">
+        <!--1° Coluna-->
+        <div class="descricao">
+                  <p class="descricao__texto">"Simplesmente maravilhoso ótimo serviço"</p>
+                 <p class="descricao__texto destaque">D</p>
+    </div>
+</div>
+</div>
+</section>
+
+<footer class="rodape">
+    <img class="rodape__logo" src="assets/logoefata.svg" alt="Logo Efata">
+    <ul class="rodape__lista">
+        <li class="rodape__link">
+            <a class="rodape__link nav" href="https://wa.me/5511963709379?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.">WhatsAapp</a>
+        </li>
+        <li class="rodape__link">
+            <a class="rodape__link nav" href="#">Instagram</a>
+        </li>
+    </ul>
+    <p class="rodape__texto">® 2021 Marcenaria Efata, Todos os direitos reservados. Conteúdo sujeito a disponibilidade.</p>
+    <p class="rodape__texto">Marcenaria Efata é um serviço especializado em móveis planejados e sob medida, oferecido mediante contratação e sujeito aos termos e condições. O serviço Marcenaria+ é prestado por Marcenaria Efatá, localizada na Rua Principal, 123 - Centro, Cidade - Estado, CEP 12345-678, Brasil, CNPJ 12.345.678/0001-90</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 8,
+        slidesPerView: 2,
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+    });
+
+    const ambienteLinks = document.querySelectorAll('.ambiente-link');
+    ambienteLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
+            const ambiente = link.getAttribute('data-ambiente');
+            const ambientes = document.querySelectorAll('.ambiente');
+            ambientes.forEach(ambienteItem => {
+                if (ambienteItem.classList.contains(ambiente)) {
+                    ambienteItem.style.display = 'block';
+                } else {
+                    ambienteItem.style.display = 'none';
+                }
+            });
+        });
+    });
+
+  // Função para observar e adicionar a classe "mostrar" aos elementos quando estiverem visíveis
+function observarElementos(elementos) {
+    elementos.forEach(elemento => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('mostrar');
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        observer.observe(elemento);
+    });
+}
+
+// Encontra todos os elementos com a classe 'texto' ou 'segundario-paragrafo' e observa-os
+const elementosParaObservar = document.querySelectorAll('.Efeitos, .segundario-paragrafo');
+observarElementos(elementosParaObservar);
+
+</script>
+
+</body>
+</html>

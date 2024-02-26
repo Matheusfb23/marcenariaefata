@@ -1,0 +1,54 @@
+
+.carrosel__titulo {
+    color: var(--cor-dourada);
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1em 0 1em;
+}
+
+.carrosel__link {
+    display: block;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 30px;
+    color: var(--cor-dourada);
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 3em 1em 3em 1em;
+    padding: 1em;
+    text-decoration: none;
+
+}
+
+.swiper-slide img {
+    width: 100%;
+    max-height: 300px; /* Ajuste o tamanho máximo conforme necessário */
+}
+
+
+
+.ambiente-lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.ambiente-link {
+    color: var(--cor_preta);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    padding: 1em;
+}
+
+.ambiente-link:hover {
+    color: var(--cor-dourada);
+}
